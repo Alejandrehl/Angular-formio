@@ -10,6 +10,10 @@ const routes: Routes = [
   {
     path: 'auth',
     loadChildren: './auth/auth.module#AuthModule'
+  },
+  {
+    path: 'event',
+    loadChildren: './event/event.module#EventModule'
   }
 ];
 
